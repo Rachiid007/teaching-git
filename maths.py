@@ -33,3 +33,12 @@ if __name__ == '__main__':
         assert mul(1, 0) == 0
         assert mul(0, 1) == 0
         assert mul(2, 6) == 12
+
+        assert square(0) == 0
+        assert square(1) == 1
+        assert square(4) == 16
+        assert square(6) == 36
+        assert square(7) == 49
+        assert square(-5) == 25
+        assert square(-6) == 36
+        assert square(-99) == -1681 
