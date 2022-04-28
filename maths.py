@@ -17,6 +17,8 @@ def mul(a, b):
         c += a
     return c
 
+def square(nbr):
+    return nbr ** 2
 
 if __name__ == '__main__':
     import sys
